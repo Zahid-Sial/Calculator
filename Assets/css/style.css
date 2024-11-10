@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 194, 194);
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.elm1{
+    position: absolute;
+    font-size: 155px;
+    font-weight: 900;
+    bottom: -50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(108, 108, 108, 0.7);
+    z-index: -9999;
+
+}
+
+.elm2{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 350px;
+    transform: rotate(10deg);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(145, 145, 145, 0.5);
+    z-index: -9999;
+
+}
+
+.elm3{
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    font-size: 450px;
+    transform: rotate(5deg);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(167, 167, 167, 0.5);
+    z-index: -9999;
+}
+
+.elm4{
+    position: absolute;
+    top: 20px;
+    right: 440px;
+    font-size: 300px;
+    transform: rotate(5deg);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(170, 170, 170, 0.8);
+    z-index: -9999;
+
+}
+
+.elm5{
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    font-size: 350px;
+    transform: rotate(5deg);
+    font-weight: 900;
+    font-family:cursive;
+    color: rgba(164, 164, 164, 0.6);
+    z-index: -9999;
+}
+
+.elm6{
+    position: absolute;
+    bottom: 7px;
+    left: 270px;
+    font-size: 280px;
+    font-weight: 900;
+    font-family:fantasy;
+    color: rgba(178, 178, 178, 0.6);
+    z-index: -9999;
+}
+
+table{
+    position: absolute;
+    top: 18%;
+    background-color: rgba(126, 126, 126, 0.3);
+    border-radius: 5px;
+    padding: 2px;
+    z-index: 9999;
+}
+
+td{
+    padding: 1px;
+}
+button,input{
+    padding: 15px;
+    font-size: large;
+}
+button{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(94, 94, 94);
+}
+button:hover{
+    background-color: rgb(236, 236, 236);
+}
+button:active{
+    background-color: white;
+}
+.color{
+    color: rgb(0, 0, 212);
+}
+#btnEql{
+    background-color:rgb(1, 1, 218);
+    color: white;
+    border: none;
+}
+input{
+    text-align: right;
+    border: 2px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    width: 100%;
+}
